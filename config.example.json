@@ -1,0 +1,16 @@
+{
+  "_说明": "course_url 必须和刷课项目用同一个（同课程）。也可以跑 python quiz.py --login 先登录再手动填。",
+
+  "course_url": "https://mooc1.chaoxing.com/mooc-ans/mycourse/studentstudy?chapterId=〔章节ID〕&courseId=〔课程ID〕&clazzid=〔班级ID〕&enc=〔签名〕",
+
+  "minimize_on_start": false,
+  "headless": false,
+
+  "_作答_说明": "随机选答案，不追求正确率。多选题至少选 2 个。",
+  "answer_fill_text": "正确",
+  "answer_essay_text": "根据课程内容作答。",
+
+  "_安全_说明": "只做章节测验。检测到考试/计时/作业会自动跳过。",
+  "skip_exam": true,
+  "skip_homework": true
+}
